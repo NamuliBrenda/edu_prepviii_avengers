@@ -36,7 +36,7 @@
     justify-content: space-between;
     padding: 20px;
     flex-wrap: wrap;
-    background-color: dodgerblue;
+    background-color:  rgb(43, 43, 146, 0.7);
     
 
 }
@@ -55,6 +55,7 @@
     font-family: cursive, sans-serif;
     padding-bottom: 20px;
     text-transform: uppercase;
+    
     
 }
 
@@ -80,6 +81,10 @@
     margin: 10px;
     padding: 10px;
 
+}
+
+form label{
+    padding-bottom: 20px;;
 }
 
 .flex-container h2{
@@ -109,14 +114,14 @@ form button{
 }
 
 form button:hover{
-    color: blue;
-    background-color: antiquewhite;
+    color: antiquewhite;
+    background-color: rgb(63, 62, 161);
 }
 
 .social-links{
     
   padding: 20px;
-    background-color: rgba(1, 1, 2, 0.7);
+    background-color: rgba(104, 104, 196, 0.7);
     text-align: center;
     
     
@@ -134,7 +139,7 @@ form button:hover{
 .fa-envelope:before {
     content: "\f0e0";
     margin-left: 30px;
-    background-color: bisque;
+    background-color:  rgb(43, 43, 146);
     border-radius: 50%;
     padding: 15px;
     display: flex;
@@ -144,7 +149,7 @@ form button:hover{
 .fa-phone:before {
     content: "\f0e0";
     margin-left: 30px;
-    background-color: bisque;
+    background-color:  rgb(43, 43, 146);
     border-radius: 50%;
     padding: 15px;
     display: flex;
@@ -154,7 +159,7 @@ form button:hover{
 .fa-facebook:before {
     content: "\f0e0";
     margin-left: 30px;
-    background-color: bisque;
+    background-color:  rgb(43, 43, 146);
     border-radius: 50%;
     padding: 15px;
     display: flex;
@@ -164,7 +169,7 @@ form button:hover{
 .fa-twitter:before {
     content: "\f0e0";
     margin-left: 30px;
-    background-color: bisque;
+    background-color:  rgb(43, 43, 146);
     border-radius: 50%;
     padding: 15px;
     display: flex;
