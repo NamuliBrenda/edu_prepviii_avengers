@@ -103,21 +103,18 @@ nav h1{
     transform: scale(1.1);
 }
 .container2{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: inline-block;
     width: 100%;
     height: 100vh;
     
 }
-#about{
-    background-color: teal;
+.container2 h1{
+    margin: 75px;
+    padding: 0;
+    text-align: center;
 }
-#portfolio{background-color: violet;}
-#contact{background-color: tomato;}
+
+
 
 /* Animations for the landing page */
 @keyframes move{
